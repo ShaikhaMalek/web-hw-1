@@ -4,31 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>نبته</title>
-</head>
-<body> 
 
-<p><i><b>مرحبا بكم في موقع نبته هذا الموقع سوف يساعدكم على معرفة كمية الماء المناسبة 
+<link rel="stylesheet" href="./نبته.css">
+</head>
+
+<style>
+    .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+    </style>
+<body>
+
+
+
+    <!-- الاخضر اللي فيه قائمة النباتات  -->
+
+<p>مرر الفأرة على المربع الذي في الأسفل للقائمة</p>
+
+<div class="dropdown">
+  <button class="dropbtn">منوعات عن النباتات</button>
+  <div class="dropdown-content">
+  <a href="https://mawdoo3.com/%D8%A3%D9%86%D9%88%D8%A7%D8%B9_%D8%A7%D9%84%D9%86%D8%A8%D8%A7%D8%AA%D8%A7%D8%AA">أنواع النباتات</a>
+  <a href="https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D9%86%D8%A8%D8%A7%D8%AA%D8%A7%D8%AA_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA">النباتات المتوفرة بالكويت</a>
+  <a href="https://mawdoo3.com/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%B3%D9%82%D9%8A_%D8%A7%D9%84%D9%86%D8%A8%D8%A7%D8%AA%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9">طرق سقي النباتات المنزلية</a>
+  <a href="./page4.html">نباتات ومعلومات عشوائية عنها</a>
+  </div>
+</div>
+<br>
+<br>
+<br>                                    
+<br>
+<!-- هذا اللي في الهوم والكونتاكت -->
+
+<ul>
+  <li><a href="./page1.html">Home</a></li>
+  <li><a href="mailto:shaikha_malek06@hotmail.com">Contact</a></li>
+ </ul>
+    
+
+
+
+
+    <div class="logo"><i>
+نبته
+</i></div>
+
+    
+<p class="size"><i><b>مرحبا بكم في موقع نبته هذا الموقع سوف يساعدكم على معرفة كمية الماء المناسبة 
 للنبتة التي لديكم وإذا كانت صالحه للزراعة في المنزل أم لا
 </b></i></p>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
-
-<a href="./page2.html">
+<a class="img" href="./page2.html">
     <img width="200 " src="./plants 1.jpg" alt="صورة نباتات">
 </a>
-<p>اضغط على الصورة الأولى لمعرفة كمية الماء المناسبة لنبتتك</p>
+<p class="text"><em>اضغط على الصورة الأولى لمعرفة كمية الماء المناسبة لنبتتك</em></p>
 <br>
 <br>
 <br>
 
 <a href="./">
 
-    <a href="page3.html">
+    <a class="img" href="page3.html">
 <img width="200 " src="./plants 2.jpg" alt="صورة نباتات">
     </a>
-<p>اضغط على الصورة الثانية لمعرفة إذا كانت نباتاتك صالحة للزراعة في المنزل</p>
+<p class="text"><em>اضغط على الصورة الثانية لمعرفة إذا كانت نباتاتك صالحة للزراعة في المنزل</em></p>
+
 <br>
 <br>
 <br>
@@ -39,8 +121,12 @@
 <br>
 <br>
 <br>
-<h1>  Click Me إذا انتهيت من زيارة الموقع اضغط زر</h1>
+
+
+<p><h1> Click Me إذا انتهيت من زيارة الموقع اضغط زر</h1></p>
 <button type="button" onclick="alert('Thanks for visiting our website!')">Click Me!</button>
+
+
 <br>
 <br>
 <br>
@@ -67,14 +153,4 @@
     <img width="100" src="file:///C:/Users/628358/Documents/GitHub/web-cw-2/img/kwcodes.png" alt="صورة شعار الكويت تبرمج">
     </footer>
 </body> 
-
-
-
-
-
-
-
-
-
-
-
+</html>
